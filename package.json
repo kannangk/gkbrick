@@ -2,9 +2,10 @@
   "name": "express-mvc",
   "version": "1.0.0",
   "description": "example oop and mvc arcitecture express",
-  "main": "/app/server.js",
+  "main": "server.js",
   "scripts": {
-    "start": "node server.js"
+   "start": "node .",
+    "dev": "nodemon server.js"
   },
   "repository": {
     "type": "git",
