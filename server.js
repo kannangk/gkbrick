@@ -5,8 +5,8 @@ const http = require('http')
 const { app } = require('./app')
 const { Route } = require('./core/Route')
 
-//class App extends Route {
- // init() {
+class App extends Route {
+  init() {
     // if (cluster.isMaster) {
     //   let cpuCore = os.cpus().length
     //   for (let i = 0; i < cpuCore; i++) {
@@ -26,7 +26,7 @@ const { Route } = require('./core/Route')
     //   // listenint server port
     //   http.createServer(app).listen(process.env.PORT)
     // }
- // }
-//}
+  }
+}
 
-//new App().init()
+new App().init()
