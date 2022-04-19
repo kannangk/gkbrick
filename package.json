@@ -4,7 +4,7 @@
   "description": "example oop and mvc arcitecture express",
   "main": "server.js",
   "scripts": {
-   "start": "node .",
+    "start": "node .",
     "dev": "nodemon server.js"
   },
   "repository": {
@@ -29,6 +29,7 @@
     "mongoose": "^5.9.1"
   },
   "devDependencies": {
+    "case-sensitive-paths-webpack-plugin": "^2.4.0",
     "morgan": "^1.9.1",
     "nodemon": "^2.0.2"
   },
