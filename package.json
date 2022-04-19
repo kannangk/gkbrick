@@ -34,12 +34,12 @@
   "_moduleAliases": {
     "cores": "core/",
     "configs": "configs/",
-    "controllers": "app/controllers/",
-    "helpers": "app/helpers/",
-    "middlewares": "app/middlewares/",
-    "models": "app/models/",
-    "routes": "app/routes",
-    "views": "app/views/",
-    "libs": "app/libs/"
+    "controllers": "app_main/controllers/",
+    "helpers": "app_main/helpers/",
+    "middlewares": "app_main/middlewares/",
+    "models": "app_main/models/",
+    "routes": "app_main/routes",
+    "views": "app_main/views/",
+    "libs": "app_main/libs/"
   }
 }
