@@ -7,7 +7,7 @@ mod.bodyParser()
 mod.dotenv()
 mod.template()
 mod.assets()
-mod.morgan()
+//mod.morgan()
 
 
 module.exports = { app }
