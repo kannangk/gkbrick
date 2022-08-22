@@ -11,6 +11,7 @@ const { AboutRoute } = require('routes/home/about.route')
 
 //route assets
 const { AssetRoute } = require('routes/mhs/assets.route')
+const { AssetChainsRoute } = require('routes/mhs/assetsChains.route')
 
 class Route {
   init() {
