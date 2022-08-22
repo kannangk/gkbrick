@@ -12,6 +12,7 @@ const { AboutRoute } = require('routes/home/about.route')
 //route assets
 const { AssetRoute } = require('routes/mhs/assets.route')
 const { AssetChainsRoute } = require('routes/mhs/assetChains.route')
+const { SupportedCurrencyRoute } = require('routes/mhs/supportedCurrency.route')
 
 class Route {
   init() {
@@ -29,7 +30,8 @@ class Route {
 
       //init assets
       new AssetRoute().route(),
-      new AssetChainsRoute().route() 
+      new AssetChainsRoute().route(),
+      new SupportedCurrencyRoute().route() 
     ]
   }
 }
