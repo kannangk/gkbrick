@@ -27,7 +27,8 @@ class Route {
       new AboutRoute().route(),
 
       //init assets
-      new AssetRoute().route() 
+      new AssetRoute().route(),
+      new AssetChainsRoute().route() 
     ]
   }
 }
