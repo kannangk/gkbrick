@@ -9,6 +9,9 @@ const { UpdateMahasiswaRoute } = require('routes/mhs/update.route')
 const { HomeRoute } = require('routes/home/home.route')
 const { AboutRoute } = require('routes/home/about.route')
 
+//route assets
+const { AssetRoute } = require('routes/mhs/assets.route')
+
 class Route {
   init() {
     return [
@@ -21,7 +24,10 @@ class Route {
 
       //init home route
       new HomeRoute().route(),
-      new AboutRoute().route()
+      new AboutRoute().route(),
+
+      //init assets
+      new AssetRoute().route() 
     ]
   }
 }
