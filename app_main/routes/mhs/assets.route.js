@@ -16,4 +16,5 @@ class AssetRoute extends Controller{
     
   }
 }
+
 module.exports = { AssetRoute }
